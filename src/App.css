@@ -1,0 +1,173 @@
+body {
+  background-color: rgb(245, 244, 244);
+}
+.monitorSize {
+  width: 1200px;
+  margin: 0 auto;
+}
+.headerBlock {
+  display: flex;
+  justify-content: space-evenly;
+  height: 60px;
+  background-color: white;
+}
+.headerBlock h1 {
+  font-family: 'Kablammo', cursive;
+  color: rgb(23, 153, 162);
+}
+.headerButtonRegister {
+  display: flex;
+
+}
+.title {
+  align-self: center;
+}
+
+input{
+  height: 30px;
+  align-self: center;
+  border: 1px solid rgb(224, 222, 222);
+  text-align: center;
+}
+.buttonEnter{
+  height: 30px;
+  align-self: center;
+  background-color: #0389f5;
+  border: none;
+  color: white;
+  width: 70px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.register {
+  align-self: center;
+  margin-left: 10px;
+  color: #0389f5;
+  cursor: pointer;
+}
+.aboutBlock {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 40px;
+}
+.instagramSubmit {
+  display: flex;
+  justify-content: space-between;
+}
+.instagramSubmit button {
+  margin-left: 0px;
+  height: 30px;
+  align-self: center;
+  background-color: #0389f5;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+.infoRow {
+  display: flex;
+}
+.infoRow p {
+  margin: 5px;
+}
+.refs {
+  display: flex;
+  flex-direction: column;
+}
+a {
+  text-decoration: none;
+}
+.logo {
+  width: 200px;
+  border: 2px solid rgb(213, 210, 212);
+  border-radius: 50%;
+  padding: 3px;
+  box-shadow: 0 0px 2px 1px rgb(243, 170, 216);
+}
+.portret {
+  width: 100px;
+  border-radius: 50%;
+  height: 100px;
+}
+.caruselPicture {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+.caruselPicture img {
+  width: 100px;
+  padding: 2px;
+  border: 1px solid rgb(210, 207, 207);
+}
+.caruselNames {
+  display: flex;
+  justify-content: space-evenly;
+}
+.caruselBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.caruselBlock img {
+  cursor: pointer;
+}
+.underLines {
+  display: flex;
+  justify-content: space-evenly;
+}
+.underLines h3 {
+  cursor: pointer;
+}
+.blockOfPosts {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+.blockOfPosts img {
+  cursor: pointer;
+  opacity: 0.5;
+}
+.blockOfPosts img:hover {
+  margin-top: -10px;
+  margin-bottom: 10px;
+  opacity: 1;
+  transition: 0.5s;
+}
+
+
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
