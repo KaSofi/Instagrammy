@@ -1,4 +1,4 @@
-Визуал:
+Сайт:
 instagramm-my.netlify.app
 
 
